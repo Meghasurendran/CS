@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+     <head>
+          <title>Application form</title>
+     </head>
+     <body>
+          <h1>Application form</h1>
+         <form>
+          <input type="text" name="name" placeholder="Your name" pattern="[a-zA-Z]+" title="Name should contain only letters" required/><br /><br />
+          DOB:<input type="Date" min="2001.01.01"/><br /><br />
+          Gender:
+          Male<input type="radio" value="male" name="gender"/>
+          Female<input type="radio" value="female" name="gender"/>
+          Others<input type="radio" value="others" name="gender"/><br /><br />
+          <input type="text" placeholder="Father's name"/><br /><br />
+          <textarea placeholder="Address"></textarea><br /><br />
+          District:
+          <select required>
+                <option>kasargod</option>
+                <option>Kannur</option>
+                <option>Kozhikode</option>
+                <option>Malappuram</option>
+                <option>Wayanad</option>
+                <option>Palakkad</option>
+                <option>Alappuzha</option>
+                <option>Thrissur</option>
+                <option>Idukki</option>
+                <option>Kottayam</option>
+                <option>Ernakulam</option>
+                <option>Pathanamthitta</option>
+                <option>Kollam</option>
+                <option>Thiruvananthapuram</option>
+          </select><br /><br />
+          Languages known:
+          Malayalam<input type="checkbox" value="mal"/>
+          English<input type="checkbox" value="eng"/>
+          Hindi<input type="checkbox" value="hin"/><br /><br />
+          <input type="email" placeholder="email address" required/><br /><br />
+         <input type="password" placeholder="your password" pattetn=".{8,}" title="password must contain 8 letters"/>
+         <input type="password" placeholder="confirm password"/><br /><br />
+         <input type="text" placeholder="mobile no:" pattern="\d{10}" title="Mobile no: should have 10 digits"/><br /><br />
+         <input type="submit" value="register"/>
+        </form>
+     </body>
+</html>
