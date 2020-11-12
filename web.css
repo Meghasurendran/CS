@@ -1,7 +1,7 @@
 body{
   width:80%;
   margin:auto;
-  bgcolor: light blue;
+  bgcolor:#85C1E9;
   text-align: center;
 }
 
@@ -10,8 +10,8 @@ body{
 }
 
 #logo{
-  border:3px ridge black;
-  width:100%
+  border:4px ridge black;
+  width:80%;
 }
 
 h1,h2,h3,h4,h5,h6{
