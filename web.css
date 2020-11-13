@@ -1,5 +1,5 @@
 body{
-  width:80%;
+  width:90%;
   margin:auto;
   bgcolor:#85C1E9;
   text-align: center;
@@ -10,7 +10,6 @@ body{
 }
 
 #logo{
-  border:ridge black;
   width:100%;
 }
 
