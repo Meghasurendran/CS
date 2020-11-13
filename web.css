@@ -10,8 +10,8 @@ body{
 }
 
 #logo{
-  border:4px ridge black;
-  width:60%;
+  border:ridge black;
+  width:100%;
 }
 
 h1,h2,h3,h4,h5,h6{
